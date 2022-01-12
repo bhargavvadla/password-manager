@@ -4,6 +4,7 @@
     "name": "BHARGAV VADLA",
     "email": "bhargavvadla4b6@gmail.com"
   },
+  "homepage": "https://bhargavvadla.github.io/password-manager",
   "private": true,
   "version": "1.0.0",
   "engines": {
@@ -15,6 +16,7 @@
     "@testing-library/react": "11.2.5",
     "@testing-library/user-event": "12.6.2",
     "chalk": "4.1.0",
+    "password-manager": "link:",
     "react": "17.0.1",
     "react-dom": "17.0.1",
     "uuid": "8.3.2"
@@ -23,6 +25,7 @@
     "eslint-config-airbnb": "18.2.1",
     "eslint-config-prettier": "8.1.0",
     "eslint-plugin-prettier": "3.3.1",
+    "gh-pages": "3.2.3",
     "husky": "4.3.8",
     "lint-staged": "10.5.4",
     "npm-run-all": "4.1.5",
@@ -36,7 +39,9 @@
     "lint": "eslint .",
     "lint:fix": "eslint --fix src/",
     "format": "prettier --write \"./src\"",
-    "run-all": "npm-run-all --parallel test lint:fix"
+    "run-all": "npm-run-all --parallel test lint:fix",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "lint-staged": {
     "*.js": [
