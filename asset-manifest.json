@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/password-manager/static/css/main.12f76eda.chunk.css",
+    "main.js": "/password-manager/static/js/main.0c9b5fd8.chunk.js",
+    "main.js.map": "/password-manager/static/js/main.0c9b5fd8.chunk.js.map",
+    "runtime-main.js": "/password-manager/static/js/runtime-main.43652019.js",
+    "runtime-main.js.map": "/password-manager/static/js/runtime-main.43652019.js.map",
+    "static/js/2.fc533fd2.chunk.js": "/password-manager/static/js/2.fc533fd2.chunk.js",
+    "static/js/2.fc533fd2.chunk.js.map": "/password-manager/static/js/2.fc533fd2.chunk.js.map",
+    "index.html": "/password-manager/index.html",
+    "static/css/main.12f76eda.chunk.css.map": "/password-manager/static/css/main.12f76eda.chunk.css.map",
+    "static/js/2.fc533fd2.chunk.js.LICENSE.txt": "/password-manager/static/js/2.fc533fd2.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.43652019.js",
+    "static/js/2.fc533fd2.chunk.js",
+    "static/css/main.12f76eda.chunk.css",
+    "static/js/main.0c9b5fd8.chunk.js"
+  ]
+}
