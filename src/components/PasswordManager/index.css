@@ -1,0 +1,260 @@
+* {
+  font-family: 'Roboto';
+}
+.app-container {
+  background: #9ba9eb;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.responsive-container {
+  width: 85%;
+}
+
+@media screen and (min-width: 768px) {
+  .responsive-container {
+    width: 70%;
+  }
+}
+.app-logo {
+  height: 60px;
+}
+.app-header {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.card-container {
+  background: #5763a5;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.manager-image {
+  width: 300px;
+  order: 1;
+}
+.card {
+  background: #454f84;
+  border-radius: 12px;
+  width: 90%;
+  max-width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+@media screen and (min-width: 768px) {
+  .manager-container {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .manager-image {
+    order: 2;
+  }
+  .card-container {
+    padding: 25px;
+  }
+}
+.form-heading {
+  color: #f8fafc;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+.card-responsive {
+  width: 88%;
+  margin: 20px 0;
+}
+
+@media screen and (min-width: 768px) {
+  .card-responsive {
+    width: 75%;
+  }
+}
+.input-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 45px;
+  background: #f8fafc;
+  margin-bottom: 15px;
+  border-radius: 4px;
+}
+.input {
+  width: 100%;
+  background: none;
+  outline: none;
+  border: 0;
+  font-size: 14px;
+  padding-left: 10px;
+}
+@media screen and (min-width: 768px) {
+  .input {
+    font-size: 16px;
+  }
+}
+.icon-container {
+  border-right: 1px solid #c3caea;
+  width: 50px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.input-icon {
+  height: 20px;
+  width: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .input-icon {
+    height: 24px;
+    width: 24px;
+  }
+}
+.btn-container {
+  display: flex;
+  justify-content: flex-end;
+}
+.add-btn {
+  border: none;
+  outline: none;
+  background: #0b69ff;
+  padding: 8px 28px;
+  color: #f8fafc;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.passwords-header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.hr-line {
+  height: 1px;
+  background: #7683cb;
+  border: none;
+}
+.passwords-header-title {
+  font-size: 14px;
+  font-weight: 500;
+  color: #f8fafc;
+}
+.search-container {
+  /* width: 200px; */
+  height: 25px;
+  background: #f8fafc;
+  width: 130px;
+  display: flex;
+  justify-content: center;
+}
+.search-icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 35px;
+  height: 100%;
+  border-right: 2px solid #c3caea;
+}
+.search-icon {
+  height: 18px;
+  width: 18px;
+}
+.search-input {
+  height: 100%;
+  width: 100%;
+  background: none;
+  border: none;
+  outline: none;
+  padding-left: 10px;
+}
+
+.checkbox-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+.checkbox-label {
+  font-size: 14px;
+  margin-left: 10px;
+  color: #f8fafc;
+}
+
+.checkbox-input {
+  width: 16px;
+  height: 16px;
+}
+
+@media screen and (min-with: 768px) {
+  .checkbox-input {
+    width: 20px;
+    height: 20px;
+  }
+  .checkbox-label {
+    font-size: 16px;
+  }
+}
+
+.no-passwords-image {
+  width: 280px;
+}
+.no-passwords-title {
+  font-size: 18px;
+  text-align: center;
+  color: #f8fafc;
+  font-weight: 500;
+  margin-top: 15px;
+}
+@media screen and (min-width: 768px) {
+  .no-password-container {
+    width: 100%;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+  }
+}
+.results-count {
+  font-size: 10px;
+  padding: 2px 12px;
+  border: 1px solid #c3caea;
+  border-radius: 10px;
+  display: inline-block;
+  margin-left: 2px;
+  margin-right: 10px;
+}
+.passwords-list-container {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* 
+#9ba9eb
+#c3caea
+#5763a5
+#f8fafc
+#454f84
+#0b69ff
+#94a3b8
+#b6c3ca
+#7683cb
+#f59e0b
+#10b981
+#f97316
+#14b8a6
+#b91c1c
+#0ea5e9
+#ffffff
+#64748b 
+*/
